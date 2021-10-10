@@ -64,6 +64,9 @@ body{
   img.self{
     max-height: 45vh;
   }
+  .card{
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-height: 700px){
