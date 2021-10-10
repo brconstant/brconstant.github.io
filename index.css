@@ -63,7 +63,7 @@ body{
   }
 }
 
-@media only screen and (max-height: 500px){
+@media only screen and (max-height: 600px){
   .card{
     flex-direction: row-reverse;
   }
