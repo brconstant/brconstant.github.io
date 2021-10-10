@@ -63,14 +63,14 @@ body{
   }
 }
 
-/*@media only screen and (max-height: 700px){
+@media only screen and (max-height: 500px){
   .card{
     flex-direction: row-reverse;
   }
   .h1{
     font-size: 25px;
   }
-}*/
+}
 
 .text{
   padding-left: 2em;
