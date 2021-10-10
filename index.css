@@ -36,6 +36,24 @@ body{
   }
 }
 
+@media only screen and (min-width: 1250px){
+  .h1{
+    font-size: 40px;
+  }
+  .muted{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1500px){
+  .h1{
+    font-size: 50px;
+  }
+  .muted{
+    font-size: 30px;
+  }
+}
+
 @media only screen and (max-width: 800px){
   img.self{
     max-height: 45vh;
