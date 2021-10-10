@@ -1,0 +1,64 @@
+body{
+  background: #e3e5e7;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card{
+  background: #fdfdfd;
+  border-radius: 4px;
+  height: 85vh;
+  width: 85vw;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 1000px){
+  .card{
+    flex-direction: row-reverse;
+  }
+  img.self{
+    max-height: 80vh;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  img.self{
+    max-height: 60vh;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  img.self{
+    max-height: 45vh;
+  }
+}
+
+@media only screen and (max-height: 700px){
+  .card{
+    flex-direction: row-reverse;
+  }
+}
+
+.text{
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.muted{
+  opacity: 0.8;
+}
+
+.space{
+  height: 0px;
+}
