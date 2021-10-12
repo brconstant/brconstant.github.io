@@ -45,7 +45,7 @@ button{
   }
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 10000px){
   img.self{
     max-height: 60vh;
   }
