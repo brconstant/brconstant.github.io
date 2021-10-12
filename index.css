@@ -49,6 +49,9 @@ button{
   img.self{
     max-height: 60vh;
   }
+  .play{
+    font-size:25px'
+  }
 }
 
 @media only screen and (min-width: 1250px){
@@ -74,7 +77,10 @@ button{
     max-height: 45vh;
   }
   .h1{
-    font-size: 15px;
+    font-size: 20px;
+  }
+  .play{
+    font-size: 20px;
   }
 }
 
