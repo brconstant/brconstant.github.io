@@ -69,7 +69,7 @@ button{
   }
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 900px){
   img.self{
     max-height: 45vh;
   }
