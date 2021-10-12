@@ -12,13 +12,28 @@ body{
   border-radius: 4px;
   height: 85vh;
   width: 85vw;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+
+button{
+  border: none;
+  background: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.play{
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0em;
+  padding-bottom: 1em;
+  color: #000000;
+  font-size: 50px;
 }
 
 @media only screen and (min-width: 700px){
